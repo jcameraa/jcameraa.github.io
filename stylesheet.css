@@ -1,0 +1,135 @@
+.navbar {
+      margin-bottom: 0;
+      padding-top:20px;
+      border-radius: 0;
+      color: #e0887d;
+    }
+.navbar-brand{
+	color:#e0887d;
+	font-size:30px !important;
+}
+
+.jumbotron{
+  padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    z-index: -100;
+}
+
+ #video-background { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.reala {
+    position: relative;
+    color: #e0887d;
+    padding-top:40px;
+    bottom:0px;
+}
+
+.navbar-nav a{
+	color:#e0887d !important;
+	font-size:20px !important;
+}
+
+.fatface {
+	font-family: "Lalezar";
+} 
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contained {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e0887d;
+}
+
+.contained:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  font-family: "Lalezar";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.copywrite{
+  color:white !important;
+}
+
+/* Twitter */
+.fa-github {
+  background: #e0887d;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #e0887d;
+  color: white;
+}
+
+.fa{
+  padding: 20px;
+  font-size: 20px !important;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+form{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+embed{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+/* Red Background #e0887d
