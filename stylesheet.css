@@ -40,10 +40,17 @@
 	color:#e0887d !important;
 	font-size:20px !important;
 }
-
+.red{
+  color:#e0887d;
+}
 .fatface {
 	font-family: "Lalezar";
 } 
+
+.bodyText{
+  font-size:30px;
+  font-family: "Raleway";
+}
 
 .image {
   display: block;
@@ -112,6 +119,14 @@
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.Padding{
+ margin-left: 2%;
+ margin-right: 2%;
+ background-color: white;
+ margin-bottom: 0px;
+ padding: %5;
 }
 
 form{
