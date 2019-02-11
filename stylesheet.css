@@ -52,6 +52,11 @@
   font-family: "Raleway";
 }
 
+.captionText{
+  font-size:20px;
+  font-family: "Raleway";
+}
+
 .image {
   display: block;
   width: 100%;
