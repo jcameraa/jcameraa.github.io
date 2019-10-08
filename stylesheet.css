@@ -58,6 +58,7 @@
 .captionText{
   font-size:20px;
   font-family: "Raleway";
+  color: white;
 }
 
 .contained {
@@ -116,6 +117,11 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.titleText{
+    top: 50%;
+    left: 50%;
 }
 
 .sidetext{
@@ -206,5 +212,6 @@ p{
   font-family: "Verdana";
  /* font-size: 20px; */
 }
+
 
 /* Red Background #e0887d
