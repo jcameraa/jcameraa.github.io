@@ -2,10 +2,11 @@
       margin-bottom: 0;
       padding-top:20px;
       border-radius: 0;
-      color: #e0887d;
+      color:#212121 !important;
+      background-color:#000000;
     }
 .navbar-brand{
-	color:#e0887d;
+	color: #ec407a;
 	font-size:30px !important;
 }
 
@@ -31,13 +32,13 @@
 
 .reala {
     position: relative;
-    color: #e0887d;
+    color: #ec407a;
     padding-top:40px;
     bottom:0px;
 }
 
 .navbar-nav a{
-	color:#e0887d !important;
+	color:#ec407a !important;
 	font-size:20px !important;
 }
 .red{
@@ -45,22 +46,18 @@
 }
 .fatface {
 	font-family: "Lalezar";
+  color: #f06292;
 } 
 
 .bodyText{
   font-size:30px;
   font-family: "Raleway";
+  color:white;
 }
 
 .captionText{
   font-size:20px;
   font-family: "Raleway";
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .contained {
@@ -77,12 +74,35 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #e0887d;
+  transition: .6s ease;
+  background-color: #ec407a;
+}
+
+.image{
+  display: block;
+  width: 90% !important;
+  height: 350px !important;
+  margin: 10px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  vertical-align: middle !important;
+}
+
+.headerImage{
+  width: 100%;
+  height: 100% !important;
+  margin: 50px ;
+
+}
+
+.image:hover{
+  transform: scale(1.1, 1.1) !important;
+  opacity: .8;
 }
 
 .contained:hover .overlay {
   opacity: 1;
+  transform: scale(1.1, 1.1);
 }
 
 .text {
@@ -98,18 +118,35 @@
   text-align: center;
 }
 
+.sidetext{
+  color: white;
+  font-size: 25px;
+ }
+
+.textmargin{
+ padding: 10% 0;
+}
+
+.center {
+  display: block;
+  margin-left: 25%;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 50%;
+}
+
 .copywrite{
   color:white !important;
 }
 
 /* Twitter */
 .fa-github {
-  background: #e0887d;
+  background: #ec407a;
   color: white;
 }
 
 .fa-linkedin {
-  background: #e0887d;
+  background: #ec407a;
   color: white;
 }
 
@@ -129,9 +166,17 @@
 .Padding{
  margin-left: 2%;
  margin-right: 2%;
- background-color: white;
  margin-bottom: 0px;
  padding: %5;
+}
+.pinkColorBold{
+  color:#f06292;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.pinkColor{
+  color:#f06292;
 }
 
 form{
@@ -146,10 +191,20 @@ display: block;
   margin-right: auto;
   width: 40%;
 }
+body {
+  background-image: url("Images/website_background.png"); 
+}
 
 footer {
-      background-color: #f2f2f2;
+      background-color: #000000;
       padding: 25px;
     }
+a {
+  color:#f06292 !important;
+}
+p{
+  font-family: "Verdana";
+ /* font-size: 20px; */
+}
 
 /* Red Background #e0887d

@@ -1,101 +1,138 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Jamie Camera's Portfolio</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href = "stylesheet.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
-	</head>
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>                        
-		      </button>
-		      <a class="navbar-brand fatface" href="#">Jamie's Portfolio</a>
-		    </div>
-		    <div class="collapse navbar-collapse" id="myNavbar">
-		      <ul class="nav navbar-nav navbar-right">
-		        <li class="active"><a href="index.html">Home</a></li>
-		        <li><a href="about.html">About</a></li>
-		        <li><a href="resume.html">Resume</a></li>
-		      </ul>
-		    </div>
-		  </div>
-		</nav>
-
-		<!-- Jumbotrom -->
-		<div class="jumbotron">
-			<video id="video-background" preload muted autoplay loop>
-				<source src = "QSreel.mp4" type="video/mp4">
-			</video>
-			<div class = "reala">
-			  <div class="container text-center fatface">
-			    <h1>My Games<h1>      
-			  </div>
+<head>
+	<title>Jamie Camera's Portfolio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href = "stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet'>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand fatface" href="#">Jamie's Portfolio</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="resume.html">Resume</a></li>
+				</ul>
 			</div>
 		</div>
-
-		<!-- Game Grid-->
-		<div class="container-fluid bg-3 text-center">    
-		  <div class="row">
-		    <div class="col-sm-6">
-			    <div class = "contained">
-			    	<a href = "Pages/LSDS.html">
-			      	<img src = "Images/LSDS.PNG" style = "width: 100%" class="img-responsive image"  alt="Image">
-			      	<div class="overlay">
-   					 	<div class="text">Livestream Defense Scheme</div>
-  					</div>
-			    </div>
-		    </div>
-		    <div class="col-sm-6">
-			    <div class = "contained">
-			    	<a href = "Pages/PoM.html">
-			      	<img src="Images/PoMTitle.png" class="img-responsive" style="width:100%" alt="Image" class = "image">
-			      	<div class="overlay">
-   					 	<div class="text">Parade of Masks</div>
-  					</div>
-  					</a>
-			    </div>
-		    </div>
-		  </div>
-		</div><br>
-		<div class="container-fluid bg-3 text-center">    
-		  <div class="row">
-		  	 <div class="col-sm-6">
-			    <div class = "contained">
-			    	<a href = "Pages/SoS.html">
-			      	<img src="Images/SOS1.PNG" class="img-responsive" style="width:100%; height:600px;" alt="Image" class = "image">
-			      	<div class="overlay">
-   					 	<div class="text">Saving Our Singles</div>
-  					</div>
-			    </div>
-		    </div>
-		    <div class="col-sm-6">
-			    <div class = "contained">
-			    	<a href = "Pages/Elica.html">
-			      	<img src="Images/title.png" class="img-responsive" style="width:100%; height:600px" alt="Image" class = "image">
-			      	<div class="overlay">
-   					 	<div class="text">Ecila alicE</div>
-  					</div>
-			    </div>
-		    </div>
-		  </div>
-		</div><br><br>
-		<!-- Footer -->
-		<footer class="container-fluid text-center">
-	  <a href="https://github.com/jcameraa" class="fa fa-github"></a>
-		  <a href="https://www.linkedin.com/in/jamie-camera" class="fa fa-linkedin"></a>
-
-		  <p class ="copywrite">© 2019 Elijah Cobb</p>
-		</footer>
-	</body>
-</html>
+	</nav>   
+	<!-- Game Grid-->
+	<!-- For a header 
+	<div class = "row">
+      <div class="container-fluid bg-3"></div>
+      <div class="col-sm-12"></div>
+      <img src="Images/Headermaybe.png" class="center headerImage" alt="Image">
+	 </div>
+	-->
+	<div class="container-fluid bg-3 text-center" style="width:70%">    
+		<div class="row">
+			<div class="col-lg-7">
+				<div class = "contained">
+					<a href = "Pages/LSDS.html"></a>
+					<img src = "Images/LSDS.PNG" class="center image"  alt="Image">
+					<div class="overlay">
+						<div class="text">Role: Programmer</div>
+					</div>
+				</div>
+			</div>
+			<div class = "col-lg-5">
+				<div class = "sidetext textmargin">
+					<p><span class= "pinkColorBold">Role:</span></p> <p>Programmer</p>
+					<p><span class= "pinkColorBold">Responsibilities: </span></p>
+					<p> AI Development, Twitch Intergration</p>
+					<p><span class= "pinkColorBold">Summary:</span></p>  <p>Twitch-Intergrated game made for the 2019 Global Game Jam</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-7">
+					<div class = "contained">
+						<a href = "Pages/PoM.html">
+							<img src="Images/PoMTitle.png" class="center image"  alt="Image" class = "Front Pictures">
+							<div class="overlay">
+								<div class="text">Role: Programmer</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class = "col-lg-5">
+					<div class = "sidetext textmargin">
+						<p> <span class= "pinkColorBold">Role:</span> </p> 
+						<p> Programmer</p>
+						<p><span class= "pinkColorBold">Responsibilities: </span></p>
+						<p> Movement, Item Implementation</p>
+						<p><span class= "pinkColorBold">Summary:</span> </p>
+						<p> Twitch-Intergrated game made for the 2019 Global Game Jam</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-7">
+				<div class = "contained">
+					<a href = "Pages/SoS.html">
+						<img src="Images/SOS1.PNG" class="center image" alt="Image" class = "Front Pictures">
+						<div class="overlay">
+							<div class="text">Title: Writer, Narrative Design</div>
+						</div>
+					</div>
+				</div>
+				<div class = "col-lg-5">
+					<div class = "sidetext textmargin">
+						<p><span class= "pinkColorBold">Role: </span>
+							<p> Writer, Narrative Design</p>
+							<p><span class= "pinkColorBold">Responsibilities: </span></p>
+							<p> Character Dialogue, Plot </p>
+							<p><span class= "pinkColorBold">Summary:</span> </p>
+							<p> Twitch-Intergrated game made for the 2019 Global Game Jam</p>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class = "contained">
+							<a href = "Pages/Elica.html">
+								<img src="Images/title.png" class="center image"  alt="Image" class = "Front Pictures">
+								<div class="overlay">
+									<div class="text">Title: Programmer, Designer, Artist</div>
+								</div>	      
+							</div>
+						</div>
+						<div class = "col-lg-5">
+							<div class = "sidetext textmargin">
+								<p>
+									<span class= "pinkColorBold"> Role:</span>
+									<p> Programmer, Designer, Artist</p>
+									<p><span class= "pinkColorBold">Responsibilities: </span></p>
+									<p> Character Dialogue, Plot </p>
+									<p><span class= "pinkColorBold">Summary:</span> </p>
+									<p> Twitch-Intergrated game made for the 2019 Global Game Jam</p>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="container-fluid bg-3 text-center">    
+				<div class="row">
+				</div>
+			</div><br><br>
+			<!-- Footer -->
+			<footer class="container-fluid text-center">
+				<a href="https://github.com/jcameraa" class="fa fa-github"></a>
+				<a href="https://www.linkedin.com/in/jamie-camera" class="fa fa-linkedin"></a>
+			</footer>
+		</body>
+		</html>
