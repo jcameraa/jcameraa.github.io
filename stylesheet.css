@@ -141,6 +141,12 @@
   width: 50%;
 }
 
+.sideCenter{
+display: block;
+ margin-left: 20%;
+margin-top: 100px;
+}
+
 .copywrite{
   color:white !important;
 }
